@@ -1,0 +1,45 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Asus\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js
+
+PATH: 
+  C:\Program Files\WindowsApps\Microsoft.PowerShell_7.4.5.0_x64__8wekyb3d8bbwe;C:\Program Files\OpenSSH\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\MinGW\bin;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-19\bin;C:\Program Files\MySQL\MySQL Server 8.0\bin;C:\Program Files\Go\bin;C:\Users\Asus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\ProgramData\chocolatey\bin;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Docker\Docker\resources\bin;C:\Users\Asus\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\Asus\AppData\Local\Programs\Python\Python312\;C:\Users\Asus\scoop\shims;C:\Users\Asus\.cargo\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Users\Asus\AppData\Local\Programs\Microsoft VS Code\bin;C:\msys64\mingw64\bin;C:\Program Files\MongoDB\Server\6.0\bin;C:\mongosh-1.6.1\bin;C:\Users\Asus\.dotnet\tools;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;C:\Users\Asus\AppData\Local\JetBrains\Toolbox\scripts;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2022.3.2\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2022.3.1\bin;;C:\Users\Asus\go\bin;C:\Users\Asus\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Asus\AppData\Local\Programs\Hyper\resources\bin;C:\Users\Asus\AppData\Local\Programs\oh-my-posh\bin;C:\Program Files\Geth;C:\Users\Asus\node_modules\solc\node_modules\.bin;C:\Users\Asus\AppData\Local\Microsoft\WindowsApps;C:\Windows\System32;c:\users\asus\appdata\roaming\python\python310\scripts;c:\users\asus\.local\bin;C:\Users\Asus\AppData\Local\Programs\mongosh\;C:\Program Files\nodejs;C:\Users\Asus\AppData\Roaming\npm;
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.20.2
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'D:\Projects\Web3-Social-Media-dApp\node_modules\@nomicfoundation\solidity-analyzer-win32-x64-msvc\solidity-analyzer.win32-x64-msvc.node'
+
+npm manifest: 
+  {
+    "name": "metacircle",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "description": "",
+    "devDependencies": {
+      "@nomicfoundation/hardhat-ignition-ethers": "^0.15.5",
+      "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+      "hardhat": "^2.22.8"
+    },
+    "dependencies": {
+      "dotenv": "^16.4.5"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
